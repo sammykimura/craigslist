@@ -1,0 +1,178 @@
+.navbar{
+  width: 96%;
+  height:auto;
+  flex-direction: column;
+  align-items:stretch;
+  justify-content: space-between;
+  background-color: #7C21AD;
+  overflow:auto;
+  display: flex;
+  text-decoration: none;
+  position: fixed;
+
+
+
+}
+
+.navbar a{
+  padding:5px;
+  float:left;
+  text-align: center;
+  color: white;
+
+}
+
+#homepage{
+  margin-top:5px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color:white;
+}
+#searchbar{
+  margin-top:12px;
+  margin-left: 40px;
+}
+
+#location{
+ font-size: 10px;
+
+
+}
+
+#profile, #location{
+  color:white;
+  margin: 5px;
+  position: absolute;
+}
+
+#mainPicture{
+  /*padding:20px;*/
+  height:auto;
+  width: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  display:flex;
+  justify-content: center;
+  display:inline-block;
+
+}
+#pic{
+  height:100%;
+  width: 100%;
+}
+
+#mainText{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  align-self: center;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  left: 50%;
+  top:25%;
+  transform: translate(-50%, -100%);                        /* vertical alignment */
+
+}
+
+#wrap{
+  margin-top: 10px;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+
+
+
+}
+
+.categories{
+  display: flex;
+  flex-grow: 1;
+  margin:0px;
+  text-align: center;
+  max-width: 100%;
+  height:auto;
+
+}
+
+
+  .categoryText{
+    margin: 5px;
+    font-size: 15px;
+    font-family:sans-serif;
+    font-weight: bold;
+  }
+
+
+.text{
+font-family:sans-serif;
+padding-left: 40px;
+margin-top: 20px;
+padding-top: 20px;
+font-size: 15px;
+text-align: center;
+
+}
+
+#wrap2{
+  margin: 25px;
+  margin-left: 0px;
+  margin-right: 0px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+footer{
+  text-align: center;
+  background-color: #7C21AD;
+align-items: center;
+justify-content: center;
+padding: 3px;
+}
+
+#footerText{
+  text-align: center;
+
+}
+
+h3{
+  font-family: sans-serif;
+  height:100%;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+}
+h2{
+  font-family: sans-serif;
+  height:100%;
+  align-items: center;
+
+}
+
+h4{
+  font-family: sans-serif;
+  height:100%;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+
+a:hover {
+background-color: grey;
+}
+
+a, a:hover, a:focus, a:active,a:visited {
+     text-decoration: none;
+     color:inherit;
+   }
